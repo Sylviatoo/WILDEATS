@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wild eats</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="./script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/png" href="./image/icon.png" />
+    <link rel="stylesheet" href="./image/promo.png">
+  </head>
+  <body>
+    <header>
+      <img src="./image/logo.png" alt="logo" class="logo" />
+      <h3>Nos bonnes adresses !</h3>
+    </header>
+    <main>
+      <div class="transparent-page">
+        <section class="filter-section">
+          <ul>
+            <li class="filter-button">
+              <a href="#">Filtres</a>
+            </li>
+            <li class="sort-button">
+              <a href="#"><img src="./image/sort.png" alt="" /></a>
+            </li>
+          </ul>
+          <ul class="modal-filter">
+            <div class="filter-container">
+              <li class="filter-selection">Fast-Food</li>
+              <input type="checkbox" class="checkbox" value="fast-food" />
+            </div>
+            <div class="filter-container">
+              <li class="filter-selection">Italien</li>
+              <input type="checkbox" class="checkbox" value="italien" />
+            </div>
+            <div class="filter-container">
+              <li class="filter-selection">Vegetarien</li>
+              <input type="checkbox" class="checkbox" value="africain"/>
+            </div>
+            <div class="filter-container">
+              <li class="filter-selection">Africain</li>
+              <input type="checkbox" class="checkbox" value="africain"/>
+            </div>
+            <div class="filter-container">
+              <li class="filter-selection">Americain</li>
+              <input type="checkbox" class="checkbox" value="americain"/>
+            </div>
+            <div class="filter-container">
+              <li class="filter-selection">Halal</li>
+              <input type="checkbox" class="checkbox" value="halal"/>
+            </div>
+            <div class="filter-container">
+              <li class="filter-selection">Pizza</li>
+              <input type="checkbox" class="checkbox" value="pizza"/>
+            </div>
+            <div class="filter-container">
+              <li class="filter-selection">Gastronomique</li>
+              <input type="checkbox" class="checkbox" value="gastronomique"/>
+            </div>
+            <div class="filter-container">
+              <li class="filter-selection">Poisson</li>
+              <input type="checkbox" class="checkbox" value="poisson"/>
+            </div>
+            <div class="filter-container">
+              <li class="filter-selection">Europeen</li>
+              <input type="checkbox" class="checkbox" value="europeen"/>
+            </div>
+          </ul>
+          <div class="parent-sort">
+            <ul class="modal-sort">
+              <li class="sort-selection" value="pertinence">Pertinence
+            <img src="./image/checkboxok.png" alt="checkbox" class="check"></li>
+              <li class="sort-selection" value="prix decroissant">Prix décroissant
+            <img src="./image/checkbox.png" alt="checkbox" class="check"></li>
+            <li class="sort-selection" value="prix croissant">Prix croissant
+              <img src="./image/checkbox.png" alt="checkbox" class="check"></li>
+              <li class="sort-selection" value="distance">Distance
+                <img src="./image/checkbox.png" alt="checkbox" class="check"></li>
+                <li class="sort-selection" value="notes">Notes
+                  <img src="./image/checkbox.png" alt="checkbox" class="check"></li>
+                </ul>
+              </div>
+            </section>
+              <div>
+                <h2 class="promo-title">PROMO</h2>
+              </div>
+              <section class="promo-section">
+              </section>
+              <section class="restaurants-section"></section>
+            </div>
+    </main>
+    <footer>
+      <p>Mentions légales</p>
+      <p>Voir les CGV</p>
+      <p>À propos</p>
+    </footer>
+  </body>
+</html>
